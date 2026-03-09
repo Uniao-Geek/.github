@@ -255,7 +255,8 @@ Assinatura digital com validade jurídica
 
 | | | |
 |:---:|:---|:---|
-| [![mrhenrike](https://github.com/mrhenrike.png?size=80)](https://github.com/mrhenrike) | **André Henrique** — [@mrhenrike](https://github.com/mrhenrike) | Co-Fundador & Lead Hacker · Ethical Hacker & OT Security Expert · Cybersecurity Advisor @ SafeLabs (ISH Tech) · OSCP · GICSP · GRID · 45+ certs · 8º BlackHat CTF 2018 |
+| [![mrhenrike](https://github.com/mrhenrike.png?size=80)](https://github.com/mrhenrike) | **André Henrique** — [@mrhenrike](https://github.com/mrhenrike)<br>[![LinkedIn](https://img.shields.io/badge/LinkedIn-mrhenrike-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mrhenrike) [![X](https://img.shields.io/badge/X-mrhenrike-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/mrhenrike) | Co-Fundador & Lead Hacker · Ethical Hacker & OT Security Expert · Cybersecurity Advisor @ SafeLabs (ISH Tech) · OSCP · GICSP · GRID · 45+ certs · 8º BlackHat CTF 2018 |
+| [![bhrandon](https://github.com/bhrandon.png?size=80)](https://github.com/bhrandon) | **Bhrandon Borges** — [@bhrandon](https://github.com/bhrandon)<br>[![LinkedIn](https://img.shields.io/badge/LinkedIn-bhrandon--borges-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/bhrandon-borges/) | Co-Fundador & Cyber Expert · SIEM Expert & Desenvolvedor PHP · Cyber Security Tech Leader @ ISH Tecnologia · MDR Tech Leader · Especialista SIEM · 2x Pós-Graduação · Projeto LINCE |
 
 </div>
 
