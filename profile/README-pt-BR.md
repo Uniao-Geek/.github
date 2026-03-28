@@ -281,6 +281,14 @@ Se nossas ferramentas te ajudaram, fique à vontade para contribuir via **PIX** 
 
 ---
 
+<!-- LEGAL-NOTICE-UG-MRH -->
+
+### Aviso legal / legal notice
+
+Os repositórios públicos e materiais de perfil são compartilhados para **educação**, **pesquisa** e trabalho de segurança **autorizado**. **Sem garantias**; **sem responsabilidade** por uso indevido, danos ou reclamações de terceiros — **uso por sua conta e risco**. Mantenha **créditos e atribuição** aos autores originais; **issues** e **pull requests** são bem-vindos. O ficheiro `LICENSE` de cada repositório rege esse conteúdo.
+
+This organization’s public repositories and profile materials are shared for **education**, **research**, and **explicitly authorized** security work. **No warranty** of any kind; **no liability** for misuse, damages, or third-party claims — **use at your own risk**. Preserve **copyright and attribution**; **issues** and **pull requests** are welcome. Each repository’s `LICENSE` file applies to that repository’s contents.
+
 <div align="center">
 
 *Apenas para fins de testes de segurança autorizados e educacionais.*
