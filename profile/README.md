@@ -281,6 +281,78 @@ If our tools helped you, feel free to contribute via **PIX** — Brazil's instan
 
 ---
 
+## 📊 GitHub Analytics Dashboard
+
+<div align="center">
+
+### 🏆 Organization Stats
+
+<table>
+<tr>
+<td align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Uniao-Geek&show_icons=true&theme=dark&bg_color=0D1117&text_color=3fb950&title_color=3fb950&icon_color=2ea043&border_color=30363d&hide_border=true&include_all_commits=true&count_private=false&line_height=27&custom_title=União%20Geek%20GitHub%20Analytics&show_owner=true" alt="GitHub Stats" />
+</td>
+<td align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Uniao-Geek&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=4" alt="GitHub Trophies" />
+</td>
+</tr>
+</table>
+
+### ⚡ Contribution Graph
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Uniao-Geek&bg_color=0D1117&color=3fb950&line=2ea043&point=f78166&area=true&hide_border=true" alt="Activity Graph" width="100%" />
+
+### 🌊 Activity Heatmap
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Uniao-Geek/.github/blob/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Uniao-Geek/.github/blob/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://github.com/Uniao-Geek/.github/blob/output/github-contribution-grid-snake.svg">
+</picture>
+
+### 📌 Pinned Repositories
+
+<table>
+<tr>
+<th align="center">Project</th>
+<th align="center">Description</th>
+<th align="center">Tech Stack</th>
+<th align="center">Status</th>
+</tr>
+<tr>
+<td align="center">
+  <a href="https://github.com/Uniao-Geek/WinRM-Log-Collector">
+    <img src="https://img.shields.io/badge/🪟_WinRM--Log--Collector-0D1117?style=for-the-badge&logoColor=3fb950&color=30363d" alt="WinRM-Log-Collector" />
+  </a>
+</td>
+<td><strong>Windows Log Collection via WinRM/WEC</strong><br/>HTTP/HTTPS listeners · Firewall config · Certificate management · SIEM-ready</td>
+<td>
+  <img src="https://img.shields.io/badge/PowerShell-0D1117?style=flat&logo=powershell&logoColor=3fb950&labelColor=0D1117&color=30363d" alt="PowerShell" />
+  <img src="https://img.shields.io/badge/WinRM-0D1117?style=flat&logoColor=3fb950&labelColor=0D1117&color=30363d" alt="WinRM" />
+  <img src="https://img.shields.io/badge/SIEM-0D1117?style=flat&logoColor=3fb950&labelColor=0D1117&color=30363d" alt="SIEM" />
+</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td align="center">
+  <a href="https://github.com/Uniao-Geek/SOC-Detection-Lab">
+    <img src="https://img.shields.io/badge/🔵_SOC--Detection--Lab-0D1117?style=for-the-badge&logoColor=3fb950&color=30363d" alt="SOC-Detection-Lab" />
+  </a>
+</td>
+<td><strong>Cybersecurity Detection Laboratory</strong><br/>Threat hunting · Adversary simulation · SOC training · MITRE ATT&CK</td>
+<td>
+  <img src="https://img.shields.io/badge/HTML-0D1117?style=flat&logo=html5&logoColor=3fb950&labelColor=0D1117&color=30363d" alt="HTML" />
+  <img src="https://img.shields.io/badge/MITRE-0D1117?style=flat&logoColor=3fb950&labelColor=0D1117&color=30363d" alt="MITRE" />
+  <img src="https://img.shields.io/badge/SOC-0D1117?style=flat&logoColor=3fb950&labelColor=0D1117&color=30363d" alt="SOC" />
+</td>
+<td>🟡 Development</td>
+</tr>
+</table>
+
+</div>
+
+---
+
 <!-- LEGAL-NOTICE-UG-MRH -->
 
 ### Legal notice / aviso legal
