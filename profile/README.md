@@ -429,22 +429,22 @@ Brazilian anti-fraud intelligence API
 
 <div align="center">
 
-### 🏆 Organization Stats
+### 🏆 Lead Contributor Stats
 
 <table>
 <tr>
 <td align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Uniao-Geek&show_icons=true&theme=dark&bg_color=0D1117&text_color=3fb950&title_color=3fb950&icon_color=2ea043&border_color=30363d&hide_border=true&include_all_commits=true&count_private=false&line_height=27&custom_title=União%20Geek%20GitHub%20Analytics&show_owner=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=mrhenrike&show_icons=true&theme=dark&bg_color=0D1117&text_color=3fb950&title_color=3fb950&icon_color=2ea043&border_color=30363d&hide_border=true&include_all_commits=true&count_private=true&line_height=27&custom_title=União%20Geek%20—%20Lead%20Contributor&show_owner=true" alt="GitHub Stats" />
 </td>
 <td align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Uniao-Geek&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=4" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=mrhenrike&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=4" alt="GitHub Trophies" />
 </td>
 </tr>
 </table>
 
 ### ⚡ Contribution Graph
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Uniao-Geek&bg_color=0D1117&color=3fb950&line=2ea043&point=f78166&area=true&hide_border=true" alt="Activity Graph" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mrhenrike&bg_color=0D1117&color=3fb950&line=2ea043&point=f78166&area=true&hide_border=true" alt="Activity Graph" width="100%" />
 
 ### 🌊 Activity Heatmap
 
