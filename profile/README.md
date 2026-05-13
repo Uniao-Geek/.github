@@ -12,7 +12,7 @@
 
 <br>
 
-![15+ Years](https://img.shields.io/badge/15%2B_Anos-Infraestrutura_Critica-3fb950?style=for-the-badge&labelColor=0d1117)
+![20+ Years](https://img.shields.io/badge/20%2B_Anos-Infraestrutura_Critica-3fb950?style=for-the-badge&labelColor=0d1117)
 ![500+ Projects](https://img.shields.io/badge/500%2B_Projetos-Entregues-58a6ff?style=for-the-badge&labelColor=0d1117)
 ![5300+ Students](https://img.shields.io/badge/5.300%2B_Alunos-Formados-a371f7?style=for-the-badge&labelColor=0d1117)
 
@@ -28,7 +28,7 @@
 
 **Cybersecurity Consulting & Training** • **OT/ICS/SCADA/IoT** • **Offensive & Defensive Security** • **Brazil 🇧🇷**
 
-*+15 years protecting critical infrastructure — from shop floor to cloud.*
+*+20 years protecting critical infrastructure — from shop floor to cloud.*
 
 </div>
 
@@ -38,7 +38,7 @@
 
 **União Geek** is a Brazilian cybersecurity company founded by [André Henrique (@mrhenrike)](https://github.com/mrhenrike), specializing in **end-to-end security** across all technology domains — from industrial control systems to enterprise IT.
 
-We help organizations **prevent, detect, and respond** to cyber threats through consulting, penetration testing, and hands-on training.
+We help organizations **prevent, detect, and respond** to cyber threats through consulting, penetration testing, hands-on training, and purpose-built open-source tooling.
 
 ---
 
@@ -121,79 +121,214 @@ We help organizations **prevent, detect, and respond** to cyber threats through 
 
 ---
 
-## 🚀 Open-Source Tools
+## 🚀 Open-Source Arsenal
+
+### 🔴 Offensive Security — XPL-Forge Suite
+
+> Modular offensive frameworks for embedded, printer, wireless and (soon) perimeter ecosystems — by [@mrhenrike](https://github.com/mrhenrike).
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🖨️ [PrinterReaper](https://github.com/mrhenrike/PrinterReaper)
-Complete printer pentesting toolkit — **Production Ready v2.5.3**
-- 109 commands · PJL · PostScript · PCL
-- 4 network protocols · SNMP discovery
-- File exfiltration · NVRAM · Attack payloads
+### 🛰️ [EmbedXPL-Forge](https://github.com/mrhenrike/EmbedXPL-Forge)
+Embedded Device Security Assessment Framework
+- **700+ modules · 350 CVEs · 55 vendors**
+- Routers, IP cameras, GPON ONTs, ISP CPEs, IoT edge
+- **APT Group Engine** (APT28, dns-hijack chains, MikroTik, TP-Link)
+- `pip install embedxpl`
 
-[![Stars](https://img.shields.io/github/stars/mrhenrike/PrinterReaper?style=flat-square&logo=github&color=f0c040)](https://github.com/mrhenrike/PrinterReaper)
-[![Forks](https://img.shields.io/github/forks/mrhenrike/PrinterReaper?style=flat-square&logo=github)](https://github.com/mrhenrike/PrinterReaper)
+[![Stars](https://img.shields.io/github/stars/mrhenrike/EmbedXPL-Forge?style=flat-square&logo=github&color=f0c040)](https://github.com/mrhenrike/EmbedXPL-Forge)
+[![Forks](https://img.shields.io/github/forks/mrhenrike/EmbedXPL-Forge?style=flat-square&logo=github)](https://github.com/mrhenrike/EmbedXPL-Forge/forks)
 
 </td>
+<td width="50%" valign="top">
+
+### 🖨️ [PrinterXPL-Forge](https://github.com/mrhenrike/PrinterXPL-Forge)
+Complete printer penetration testing toolkit
+- **109 commands** across PJL, PostScript & PCL
+- 4 network protocols, SNMP automated discovery
+- File exfiltration, NVRAM access & attack payloads
+- Modern Python 3.8+ offensive security tool
+
+[![Stars](https://img.shields.io/github/stars/mrhenrike/PrinterXPL-Forge?style=flat-square&logo=github&color=f0c040)](https://github.com/mrhenrike/PrinterXPL-Forge)
+[![Forks](https://img.shields.io/github/forks/mrhenrike/PrinterXPL-Forge?style=flat-square&logo=github)](https://github.com/mrhenrike/PrinterXPL-Forge/forks)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📡 [WirelessXPL-Forge](https://github.com/mrhenrike/WirelessXPL-Forge)
+Wireless attack surface & lab orchestration
+- **Wi-Fi, BLE, AWDL**, rogue AP, mesh, Bruce wardriving
+- PCAP analysis, scapy pipelines, red-team workflows
+- `pip install wirelessxpl` · BSD-3-Clause
+
+[![Stars](https://img.shields.io/github/stars/mrhenrike/WirelessXPL-Forge?style=flat-square&logo=github&color=f0c040)](https://github.com/mrhenrike/WirelessXPL-Forge)
+[![Forks](https://img.shields.io/github/forks/mrhenrike/WirelessXPL-Forge?style=flat-square&logo=github)](https://github.com/mrhenrike/WirelessXPL-Forge/forks)
+
+</td>
+<td width="50%" valign="top">
+
+### 🗡️ [MikrotikAPI-BF](https://github.com/mrhenrike/MikrotikAPI-BF)
+RouterOS Attack & Exploitation Framework — **v3.5.4**
+- **40 CVE/EDB exploits**, Chimay-Red, Winbox
+- MAC-Server L2, credential decoder, NPK analyzer
+- 300-thread brute force, Nmap NSE auto-install
+- CVE scanner · `pip` package
+
+[![Stars](https://img.shields.io/github/stars/mrhenrike/MikrotikAPI-BF?style=flat-square&logo=github&color=f0c040)](https://github.com/mrhenrike/MikrotikAPI-BF)
+[![Forks](https://img.shields.io/github/forks/mrhenrike/MikrotikAPI-BF?style=flat-square&logo=github)](https://github.com/mrhenrike/MikrotikAPI-BF)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔤 [WordListsForHacking](https://github.com/mrhenrike/WordListsForHacking)
+Most comprehensive wordlist toolkit for pentest & red team
+- **25 subcommands**: charset, profile, corp-users, default-creds, password-DNA
+- DNS fuzzing, web scraping, ISP keygen, ICS/SCADA creds
+- ML training, pipal analysis · `pip install wfh-wordlist`
+
+[![Stars](https://img.shields.io/github/stars/mrhenrike/WordListsForHacking?style=flat-square&logo=github&color=f0c040)](https://github.com/mrhenrike/WordListsForHacking)
+[![Forks](https://img.shields.io/github/forks/mrhenrike/WordListsForHacking?style=flat-square&logo=github)](https://github.com/mrhenrike/WordListsForHacking)
+
+</td>
+<td width="50%" valign="top">
+
+### 🔬 [Embedded-Firmware-Research](https://github.com/Uniao-Geek/Embedded-Firmware-Research)
+IoT Firmware Security Research
+- Forensic analysis & vulnerability hunting
+- PoC development & responsible disclosure
+- Smart TVs, NVRs, cameras, routers firmware
+
+[![Stars](https://img.shields.io/github/stars/Uniao-Geek/Embedded-Firmware-Research?style=flat-square&logo=github&color=f0c040)](https://github.com/Uniao-Geek/Embedded-Firmware-Research)
+
+</td>
+</tr>
+</table>
+
+### 🔵 Defensive / Blue Team
+
+<table>
+<tr>
 <td width="50%" valign="top">
 
 ### 🛡️ [WinRM-Log-Collector](https://github.com/Uniao-Geek/WinRM-Log-Collector)
 Enhanced PowerShell for Windows log collection via WEC
 - HTTP/HTTPS WinRM listener configuration
 - Firewall & certificate management
-- Blue team / SOC ready
+- Blue team / SOC ready · SIEM integration
 
 [![Stars](https://img.shields.io/github/stars/Uniao-Geek/WinRM-Log-Collector?style=flat-square&logo=github&color=f0c040)](https://github.com/Uniao-Geek/WinRM-Log-Collector)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🗡️ [MikrotikAPI-BF](https://github.com/mrhenrike/MikrotikAPI-BF)
-Brute force tool for Mikrotik RouterOS API auditing
-- RouterOS API credential testing
-- Wordlist support & auto-discovery
-- Audit report generation
-
-[![Stars](https://img.shields.io/github/stars/mrhenrike/MikrotikAPI-BF?style=flat-square&logo=github&color=f0c040)](https://github.com/mrhenrike/MikrotikAPI-BF)
-[![Forks](https://img.shields.io/github/forks/mrhenrike/MikrotikAPI-BF?style=flat-square&logo=github)](https://github.com/mrhenrike/MikrotikAPI-BF)
+[![Forks](https://img.shields.io/github/forks/Uniao-Geek/WinRM-Log-Collector?style=flat-square&logo=github)](https://github.com/Uniao-Geek/WinRM-Log-Collector)
 
 </td>
 <td width="50%" valign="top">
 
-### 🔬 [SOC-Detection-Lab](https://github.com/Uniao-Geek/SOC-Detection-Lab)
+### 🏗️ [SOC-Detection-Lab](https://github.com/Uniao-Geek/SOC-Detection-Lab)
 Modern cybersecurity detection laboratory
 - Threat hunting & adversary simulation
 - Blue team training environment
-- Hands-on SOC exercises
+- Hands-on SOC exercises · MITRE ATT&CK
 
 [![Stars](https://img.shields.io/github/stars/Uniao-Geek/SOC-Detection-Lab?style=flat-square&logo=github&color=f0c040)](https://github.com/Uniao-Geek/SOC-Detection-Lab)
+[![Docs](https://img.shields.io/badge/Docs-SOCDL--Docs-58a6ff?style=flat-square)](https://github.com/Uniao-Geek/SOCDL-Docs)
+
+</td>
+</tr>
+</table>
+
+### 🏭 OT / ICS / SCADA
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ⚡ [GRIDSTRIKE](https://github.com/Uniao-Geek/GRIDSTRIKE)
+The World's Largest Open-Source OT/ICS/SCADA Security Arsenal
+- Critical infrastructure attack & defense
+- Honeypots, PLC/HMI assessment, Modbus/DNP3
+- PCAP analysis & industrial protocol research
+
+[![Stars](https://img.shields.io/github/stars/Uniao-Geek/GRIDSTRIKE?style=flat-square&logo=github&color=f0c040)](https://github.com/Uniao-Geek/GRIDSTRIKE)
+
+</td>
+<td width="50%" valign="top">
+
+### ⚙️ [Modbus-Process-Simulator](https://github.com/mrhenrike/Modbus-Process-Simulator)
+Java MODBUS Protocol Slave Simulator for OT/ICS testing
+- Industrial control system security validation
+- ICS/SCADA security research lab
+- Evolution of ModbusPal Enhanced
+
+[![Stars](https://img.shields.io/github/stars/mrhenrike/Modbus-Process-Simulator?style=flat-square&logo=github&color=f0c040)](https://github.com/mrhenrike/Modbus-Process-Simulator)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### ⚙️ [Modbus-Slave-Simulator](https://github.com/mrhenrike/Modbus-Slave-Simulator)
-Java MODBUS Protocol Slave Simulator for OT/ICS
-- Industrial control system security validation
-- ICS/SCADA security research
-- ModbusPal Enhanced
+### 🌿 [VirtualPlants-For-OT](https://github.com/Uniao-Geek/VirtualPlants-For-OT)
+Virtual industrial plant simulation for OT security
+- Realistic process simulation for lab environments
+- Security testing without physical infrastructure
 
-[![Stars](https://img.shields.io/github/stars/mrhenrike/Modbus-Slave-Simulator?style=flat-square&logo=github&color=f0c040)](https://github.com/mrhenrike/Modbus-Slave-Simulator)
+[![Stars](https://img.shields.io/github/stars/Uniao-Geek/VirtualPlants-For-OT?style=flat-square&logo=github&color=f0c040)](https://github.com/Uniao-Geek/VirtualPlants-For-OT)
+
+</td>
+<td valign="top"></td>
+</tr>
+</table>
+
+### 🤖 AI / Anti-Fraud
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🔍 [InvestigaPraMim](https://github.com/Uniao-Geek/InvestigaPraMim)
+Anti-fraud platform for PIX, boletos, e-mails, SMS & links
+- Internal AI/ML engine + DICT/BCB pool integration
+- OCR, fraud detection, FastAPI backend
+- Brazilian financial ecosystem focused
+
+[![Stars](https://img.shields.io/github/stars/Uniao-Geek/InvestigaPraMim?style=flat-square&logo=github&color=f0c040)](https://github.com/Uniao-Geek/InvestigaPraMim)
 
 </td>
 <td width="50%" valign="top">
 
-### 🔤 [WordListsForHacking](https://github.com/mrhenrike/WordListsForHacking)
-Compiled wordlists for Pentesters — Brazilian context
-- Real Brazilian environment focus
-- Validated in real-world engagements
+### 🌩️ [tupan-ai](https://github.com/Uniao-Geek/tupan-ai)
+Tupan AI — Brazilian anti-fraud intelligence system
+- REST API + A2A Protocol
+- 20 acoustic algorithms · AI image detection
+- FraudPalace semantic engine
 
-[![Stars](https://img.shields.io/github/stars/mrhenrike/WordListsForHacking?style=flat-square&logo=github&color=f0c040)](https://github.com/mrhenrike/WordListsForHacking)
+[![Stars](https://img.shields.io/github/stars/Uniao-Geek/tupan-ai?style=flat-square&logo=github&color=f0c040)](https://github.com/Uniao-Geek/tupan-ai)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📱 [DeuLeak](https://github.com/Uniao-Geek/rork-uniaogeek-deuleak)
+União Geek institutional mobile app (DeuLeak)
+- Expo/React Native cross-platform
+- Data breach awareness & notification
+
+[![Stars](https://img.shields.io/github/stars/Uniao-Geek/rork-uniaogeek-deuleak?style=flat-square&logo=github&color=f0c040)](https://github.com/Uniao-Geek/rork-uniaogeek-deuleak)
+
+</td>
+<td valign="top">
+
+### 📲 [investigapramim-mobile](https://github.com/Uniao-Geek/investigapramim-mobile)
+Official InvestigaPraMim mobile app
+- React Native / Expo
+- On-device fraud consultation
+
+[![Stars](https://img.shields.io/github/stars/Uniao-Geek/investigapramim-mobile?style=flat-square&logo=github&color=f0c040)](https://github.com/Uniao-Geek/investigapramim-mobile)
 
 </td>
 </tr>
@@ -230,18 +365,40 @@ Compiled wordlists for Pentesters — Brazilian context
 <tr>
 <td width="50%" valign="top">
 
-### 🔍 [LGPD-Radar](https://lgpdradar.uniaogeek.com.br/)
-WebApp scanner with automatic LGPD validation
-- Automated compliance checking
-- Privacy risk assessment
+### ✍️ [SignFlow](https://signflow.uniaogeek.com.br/)
+Digital document signing with legal validity
+- A1 certificate support · PDF digital signatures
+- Identity verification & audit trails
+- Secure document workflow & compliance
 
 </td>
 <td width="50%" valign="top">
 
-### ✍️ [SignFlow](https://signflow.uniaogeek.com.br/)
-Digital document signing with legal validity
-- Legally binding signatures
-- Secure document workflow
+### 🔍 [LGPD-Radar](https://lgpdradar.uniaogeek.com.br/)
+Automated LGPD compliance scanner
+- WebApp & API privacy risk assessment
+- Automated compliance checking
+- Actionable remediation reports
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🕵️ [InvestigaPraMim](https://investigapramim.com.br/)
+Anti-fraud consultation platform
+- PIX · Boleto · E-mail · SMS · Link verification
+- AI/ML internal engine + BCB/DICT integration
+- Mobile app available (iOS & Android)
+
+</td>
+<td width="50%" valign="top">
+
+### 🌩️ Tupan AI
+Brazilian anti-fraud intelligence API
+- 20 acoustic algorithms for voice fraud
+- AI image detection & deepfake analysis
+- FraudPalace semantic knowledge engine
 
 </td>
 </tr>
@@ -255,7 +412,7 @@ Digital document signing with legal validity
 
 | | | |
 |:---:|:---|:---|
-| [![mrhenrike](https://github.com/mrhenrike.png?size=80)](https://github.com/mrhenrike) | **André Henrique** — [@mrhenrike](https://github.com/mrhenrike)<br>[![LinkedIn](https://img.shields.io/badge/LinkedIn-mrhenrike-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mrhenrike) [![X](https://img.shields.io/badge/X-mrhenrike-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/mrhenrike) | Co-Founder & Lead Hacker · Ethical Hacker & OT Security Expert · Cybersecurity Advisor @ SafeLabs (ISH Tech) · OSCP · GICSP · GRID · 45+ certs · 8th BlackHat CTF 2018 |
+| [![mrhenrike](https://github.com/mrhenrike.png?size=80)](https://github.com/mrhenrike) | **André Henrique** — [@mrhenrike](https://github.com/mrhenrike)<br>[![LinkedIn](https://img.shields.io/badge/LinkedIn-mrhenrike-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mrhenrike) [![X](https://img.shields.io/badge/X-mrhenrike-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/mrhenrike) | Co-Founder & Lead Hacker · Ethical Hacker & OT Security Expert · Cybersecurity Advisor @ VisionCybersecurity · OSCP · GICSP · GRID · 45+ certs · 8th BlackHat CTF 2018 |
 | [![bhrandon](https://github.com/bhrandon.png?size=80)](https://github.com/bhrandon) | **Bhrandon Borges** — [@bhrandon](https://github.com/bhrandon)<br>[![LinkedIn](https://img.shields.io/badge/LinkedIn-bhrandon--borges-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/bhrandon-borges/) | Co-Founder & Cyber Expert · SIEM Expert & PHP Developer · Cyber Security Tech Leader @ ISH Tecnologia · MDR Tech Leader · SIEM Specialist · 2x Pós-Graduação · Projeto LINCE |
 
 </div>
@@ -265,19 +422,6 @@ Digital document signing with legal validity
 ## 🤝 Partners
 
 [![NeflinSEC](https://img.shields.io/badge/NeflinSEC-Cybersecurity_Consulting-3fb950?style=flat-square&labelColor=0d1117)](https://nefilinsec.com/)
-
----
-
-## ☕ Support / PIX
-
-If our tools helped you, feel free to contribute via **PIX** — Brazil's instant payment system.
-
-<div align="center">
-
-| 🇧🇷 PIX Key | `henrique.santos@uniaogeek.com.br` |
-|:---:|:---|
-
-</div>
 
 ---
 
@@ -310,45 +454,6 @@ If our tools helped you, feel free to contribute via **PIX** — Brazil's instan
   <img alt="github contribution grid snake animation" src="https://github.com/Uniao-Geek/.github/blob/output/github-contribution-grid-snake.svg">
 </picture>
 
-### 📌 Pinned Repositories
-
-<table>
-<tr>
-<th align="center">Project</th>
-<th align="center">Description</th>
-<th align="center">Tech Stack</th>
-<th align="center">Status</th>
-</tr>
-<tr>
-<td align="center">
-  <a href="https://github.com/Uniao-Geek/WinRM-Log-Collector">
-    <img src="https://img.shields.io/badge/🪟_WinRM--Log--Collector-0D1117?style=for-the-badge&logoColor=3fb950&color=30363d" alt="WinRM-Log-Collector" />
-  </a>
-</td>
-<td><strong>Windows Log Collection via WinRM/WEC</strong><br/>HTTP/HTTPS listeners · Firewall config · Certificate management · SIEM-ready</td>
-<td>
-  <img src="https://img.shields.io/badge/PowerShell-0D1117?style=flat&logo=powershell&logoColor=3fb950&labelColor=0D1117&color=30363d" alt="PowerShell" />
-  <img src="https://img.shields.io/badge/WinRM-0D1117?style=flat&logoColor=3fb950&labelColor=0D1117&color=30363d" alt="WinRM" />
-  <img src="https://img.shields.io/badge/SIEM-0D1117?style=flat&logoColor=3fb950&labelColor=0D1117&color=30363d" alt="SIEM" />
-</td>
-<td>🟢 Active</td>
-</tr>
-<tr>
-<td align="center">
-  <a href="https://github.com/Uniao-Geek/SOC-Detection-Lab">
-    <img src="https://img.shields.io/badge/🔵_SOC--Detection--Lab-0D1117?style=for-the-badge&logoColor=3fb950&color=30363d" alt="SOC-Detection-Lab" />
-  </a>
-</td>
-<td><strong>Cybersecurity Detection Laboratory</strong><br/>Threat hunting · Adversary simulation · SOC training · MITRE ATT&CK</td>
-<td>
-  <img src="https://img.shields.io/badge/HTML-0D1117?style=flat&logo=html5&logoColor=3fb950&labelColor=0D1117&color=30363d" alt="HTML" />
-  <img src="https://img.shields.io/badge/MITRE-0D1117?style=flat&logoColor=3fb950&labelColor=0D1117&color=30363d" alt="MITRE" />
-  <img src="https://img.shields.io/badge/SOC-0D1117?style=flat&logoColor=3fb950&labelColor=0D1117&color=30363d" alt="SOC" />
-</td>
-<td>🟡 Development</td>
-</tr>
-</table>
-
 </div>
 
 ---
@@ -357,7 +462,7 @@ If our tools helped you, feel free to contribute via **PIX** — Brazil's instan
 
 ### Legal notice / aviso legal
 
-This organization’s public repositories and profile materials are shared for **education**, **research**, and **explicitly authorized** security work. **No warranty** of any kind; **no liability** for misuse, damages, or third-party claims — **use at your own risk**. Preserve **copyright and attribution** to original authors; **issues** and **pull requests** are welcome. Each repository’s `LICENSE` file applies to that repository’s contents.
+This organization's public repositories and profile materials are shared for **education**, **research**, and **explicitly authorized** security work. **No warranty** of any kind; **no liability** for misuse, damages, or third-party claims — **use at your own risk**. Preserve **copyright and attribution** to original authors; **issues** and **pull requests** are welcome. Each repository's `LICENSE` file applies to that repository's contents.
 
 Os repositórios públicos e materiais de perfil são compartilhados para **educação**, **pesquisa** e trabalho de segurança **autorizado**. **Sem garantias**; **sem responsabilidade** por uso indevido, danos ou reclamações de terceiros — **uso por sua conta e risco**. Mantenha **créditos e atribuição**; **issues** e **pull requests** são bem-vindos. O ficheiro `LICENSE` de cada repositório rege esse conteúdo.
 
