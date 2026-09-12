@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=36&duration=3000&pause=1000&color=3FB950&center=true&vCenter=true&width=700&height=65&lines=Uniao+Geek;Consultoria+%26+Treinamentos+em+Ciberseguranca;OT+%7C+ICS+%7C+SCADA+%7C+IoT+%7C+IIoT+%7C+IT;Seguranca+Ofensiva+%26+Defensiva+%F0%9F%87%A7%F0%9F%87%B7" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=3FB950&center=true&vCenter=true&width=920&height=70&lines=Uniao+Geek;Consultoria+%26+Treinamentos+em+Ciberseguranca;OT+%7C+ICS+%7C+SCADA+%7C+IoT+%7C+IIoT+%7C+IT;Seguranca+Ofensiva+%26+Defensiva+%F0%9F%87%A7%F0%9F%87%B7" alt="Typing SVG" />
 
 <br>
 
@@ -177,23 +177,24 @@ Laboratório moderno de detecção para cibersegurança
 <tr>
 <td width="50%" valign="top">
 
-### ⚙️ [Modbus-Slave-Simulator](https://github.com/mrhenrike/Modbus-Slave-Simulator)
+### ⚙️ [Modbus-Process-Simulator](https://github.com/mrhenrike/Modbus-Process-Simulator)
 Simulador Java Modbus Slave para OT/ICS
 - Validação de segurança em ambiente industrial
 - Pesquisa de segurança ICS/SCADA
-- ModbusPal Aprimorado
+- Evolução do ModbusPal Enhanced
 
-[![Stars](https://img.shields.io/github/stars/mrhenrike/Modbus-Slave-Simulator?style=flat-square&logo=github&color=f0c040)](https://github.com/mrhenrike/Modbus-Slave-Simulator)
+[![Stars](https://img.shields.io/github/stars/mrhenrike/Modbus-Process-Simulator?style=flat-square&logo=github&color=f0c040)](https://github.com/mrhenrike/Modbus-Process-Simulator)
 
 </td>
 <td width="50%" valign="top">
 
-### 🔤 [WordListsForHacking](https://github.com/mrhenrike/WordListsForHacking)
-Wordlists compiladas para Pentesters — contexto BR
-- Foco em ambientes brasileiros reais
-- Validadas em engajamentos reais
+### 🔤 [WordlistXPL-Forge](https://github.com/mrhenrike/WordlistXPL-Forge)
+Toolkit de geração de wordlists para pentest e red team. **44 subcomandos**
+- charset, profile, corp-users, default-creds, password-DNA
+- DNS fuzzing, web scraping, ISP keygen, credenciais ICS/SCADA
+- CLI `wlf` · `pip install wordlistxpl-forge`
 
-[![Stars](https://img.shields.io/github/stars/mrhenrike/WordListsForHacking?style=flat-square&logo=github&color=f0c040)](https://github.com/mrhenrike/WordListsForHacking)
+[![Stars](https://img.shields.io/github/stars/mrhenrike/WordlistXPL-Forge?style=flat-square&logo=github&color=f0c040)](https://github.com/mrhenrike/WordlistXPL-Forge)
 
 </td>
 </tr>

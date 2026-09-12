@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=36&duration=3000&pause=1000&color=3FB950&center=true&vCenter=true&width=700&height=65&lines=Uniao+Geek;Cybersecurity+Consulting+%26+Training;OT+%7C+ICS+%7C+SCADA+%7C+IoT+%7C+IIoT+%7C+IT;Offensive+%26+Defensive+Security+%F0%9F%87%A7%F0%9F%87%B7" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=3FB950&center=true&vCenter=true&width=920&height=70&lines=Uniao+Geek;Cybersecurity+Consulting+%26+Training;OT+%7C+ICS+%7C+SCADA+%7C+IoT+%7C+IIoT+%7C+IT;Offensive+%26+Defensive+Security+%F0%9F%87%A7%F0%9F%87%B7" alt="Typing SVG" />
 
 <br>
 
@@ -125,7 +125,7 @@ We help organizations **prevent, detect, and respond** to cyber threats through 
 
 ### 🔴 Offensive Security — XPL-Forge Suite
 
-> Modular offensive frameworks for embedded, printer, wireless and (soon) perimeter ecosystems — by [@mrhenrike](https://github.com/mrhenrike).
+> Modular offensive frameworks for embedded, printer, wireless, firewall and OT/ICS ecosystems, by [@mrhenrike](https://github.com/mrhenrike).
 
 <table>
 <tr>
@@ -186,14 +186,14 @@ RouterOS Attack & Exploitation Framework — **v3.5.4**
 <tr>
 <td width="50%" valign="top">
 
-### 🔤 [WordListsForHacking](https://github.com/mrhenrike/WordListsForHacking)
-Most comprehensive wordlist toolkit for pentest & red team
-- **25 subcommands**: charset, profile, corp-users, default-creds, password-DNA
+### 🔤 [WordlistXPL-Forge](https://github.com/mrhenrike/WordlistXPL-Forge)
+Wordlist generation toolkit for pentest and red team. **44 subcommands**
+- charset, profile, corp-users, default-creds, password-DNA
 - DNS fuzzing, web scraping, ISP keygen, ICS/SCADA creds
-- ML training, pipal analysis · `pip install wfh-wordlist`
+- ML training, pipal analysis. CLI `wlf` · `pip install wordlistxpl-forge`
 
-[![Stars](https://img.shields.io/github/stars/mrhenrike/WordListsForHacking?style=flat-square&logo=github&color=f0c040)](https://github.com/mrhenrike/WordListsForHacking)
-[![Forks](https://img.shields.io/github/forks/mrhenrike/WordListsForHacking?style=flat-square&logo=github)](https://github.com/mrhenrike/WordListsForHacking)
+[![Stars](https://img.shields.io/github/stars/mrhenrike/WordlistXPL-Forge?style=flat-square&logo=github&color=f0c040)](https://github.com/mrhenrike/WordlistXPL-Forge)
+[![Forks](https://img.shields.io/github/forks/mrhenrike/WordlistXPL-Forge?style=flat-square&logo=github)](https://github.com/mrhenrike/WordlistXPL-Forge)
 
 </td>
 <td width="50%" valign="top">
@@ -434,7 +434,7 @@ Brazilian anti-fraud intelligence API
 <table>
 <tr>
 <td align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=mrhenrike&show_icons=true&theme=dark&bg_color=0D1117&text_color=3fb950&title_color=3fb950&icon_color=2ea043&border_color=30363d&hide_border=true&include_all_commits=true&count_private=true&line_height=27&custom_title=União%20Geek%20—%20Lead%20Contributor&show_owner=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=mrhenrike&show_icons=true&theme=dark&bg_color=0D1117&text_color=3fb950&title_color=3fb950&icon_color=2ea043&border_color=30363d&hide_border=true&include_all_commits=true&line_height=27&custom_title=Uniao%20Geek%20Lead%20Contributor" alt="GitHub Stats" />
 </td>
 <td align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=mrhenrike&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=4" alt="GitHub Trophies" />
